@@ -1,0 +1,39 @@
+fun main() {
+
+    var i = 100
+
+    while (i < 1000) {
+
+        var a = 2
+
+        var b = i / 2
+
+        var prime = true
+
+        while (a < b) {
+
+            if (i % a == 0) {
+
+                prime = false
+
+                break
+
+            }
+
+            a++
+
+        }
+
+        if (prime) {
+
+            println(i)
+
+        }
+
+        i++
+
+    }
+
+    readLine()
+
+}
